@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@android:drawable/sym_def_app_icon">
+        </item>
+        <item
+            android:id="@+id/message_id"
+            android:title="Message"
+            android:icon="@android:drawable/sym_def_app_icon">
+        </item>
+        <item
+            android:id="@+id/setting_id"
+            android:title="Settings"
+            android:icon="@android:drawable/sym_def_app_icon">
+        </item>
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:title="Add to Group"
+                android:id="@+id/add_to_group"
+                android:icon="@android:drawable/sym_def_app_icon"
+                ></item>
+            <item
+                android:title="Group"
+                android:id="@+id/id_group"
+                android:icon="@android:drawable/sym_def_app_icon"
+                ></item>
+            <item
+                android:title="Share"
+                android:id="@+id/id_share"
+                android:icon="@android:drawable/sym_def_app_icon"
+                ></item>
+        </menu>
+    </item>
+</menu>
