@@ -9,8 +9,8 @@
             android:icon="@android:drawable/sym_def_app_icon">
         </item>
         <item
-            android:id="@+id/message_id"
-            android:title="Message"
+            android:id="@+id/backup_id"
+            android:title="Backup and Restore"
             android:icon="@android:drawable/sym_def_app_icon">
         </item>
         <item
@@ -23,13 +23,13 @@
     <item android:title="Social">
         <menu>
             <item
-                android:title="Add to Group"
-                android:id="@+id/add_to_group"
+                android:title="Contact Us"
+                android:id="@+id/contact_us"
                 android:icon="@android:drawable/sym_def_app_icon"
                 ></item>
             <item
-                android:title="Group"
-                android:id="@+id/id_group"
+                android:title="Rate this app"
+                android:id="@+id/id_rate"
                 android:icon="@android:drawable/sym_def_app_icon"
                 ></item>
             <item
